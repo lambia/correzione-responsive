@@ -1,0 +1,69 @@
+/************ PAGE GENERICS ******************/
+body {
+    font-family: 'PT Sans', sans-serif;
+    background: crimson;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+
+/************ HEADER ******************/
+header {
+    height: 80px;
+}
+
+.header-wrapper {
+    height: 100%;
+}
+
+/************ INTRO *******************/
+.card {
+    margin-bottom: 16px;
+    padding: 8px;
+}
+
+/**************************************************/
+/****************** RESPONSIVE ********************/
+/**************************************************/
+
+/* TABLET */
+@media (min-width: 768px) {
+
+    /************ PAGE GENERICS ******************/
+    body {
+        background: orange;
+    }
+
+    .container {
+        max-width: 750px;
+    }
+
+    /************ INTRO *******************/
+    #cards {
+        display: flex;
+        flex-wrap: wrap;
+        margin: -8px;
+    }
+
+    .card {
+        width: calc(33.3333% - 16px);
+        margin: 8px;
+    }
+
+    .card-big {
+        width: calc(66.6666% - 16px)
+    }
+
+
+}
+
+/* DESKTOP */
+@media (min-width: 992px) {
+    /************ PAGE GENERICS ******************/
+    body {
+        background: yellow;
+    }
+}
