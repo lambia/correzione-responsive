@@ -16,6 +16,7 @@ body {
 }
 
 /*** FLEX ***/
+.d-block {  display: block; }
 .d-flex {	display: flex;	}
 .flex-row {	flex-direction: row; }
 .flex-column { flex-direction: column; }
@@ -111,16 +112,3 @@ body {
 .bg-primary-light { background-color: var(--primary-light); }
 .bg-secondary { background-color: var(--secondary); }
 .bg-secondary-light { background-color: var(--secondary-light); }
-
-
-.d-block { display: block; }
-
-/* @media (max-width: 767px) {
-    .d-mobile-block { display: block; }
-}
-@media (min-width: 768px) and (max-width: 991px) {
-    .d-tablet-block { display: block; }
-}
-@media (min-width: 992px) {
-    .d-desktop-block { display: block; }
-} */

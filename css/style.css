@@ -9,20 +9,65 @@ body {
     margin: 0 auto;
 }
 
+a {
+    text-decoration: none;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 16px;
+    background-color: white;
+    color: black;
+}
+
+.btn-blue {
+    background-color: var(--primary);
+    color: white;
+}
+
 
 /************ HEADER ******************/
 header {
     height: 80px;
+    color: white;
 }
 
 .header-wrapper {
     height: 100%;
 }
 
+header nav {
+    display: none;
+}
+
+header a {
+    color: white;
+}
+
 /************ INTRO *******************/
 .card {
     margin-bottom: 16px;
-    padding: 8px;
+    padding: 16px;
+    border-radius: 16px;
+    text-align: center;
+}
+
+.card i {
+    font-size: 5rem;
+}
+
+.card > i,
+.card > h3,
+.card > p {
+    margin: 1rem 0;
+}
+
+.card-image {
+    display: block;
+    width: 100%;
+    max-width: 250px;
+    margin-bottom: -16px;
 }
 
 /**************************************************/
@@ -66,4 +111,26 @@ header {
     body {
         background: yellow;
     }
+
+    /************ HEADER ******************/
+    header i.fas {
+        display: none;
+    }
+
+    header nav {
+        display: block;
+    }
+
+    .card-big {
+        display: flex;
+    }
+    .card-big > .card-content {
+        width: 60%;
+    }
+    .card-big > .card-image {
+        width: 40%;
+        align-self: flex-end;
+    }
+
+
 }

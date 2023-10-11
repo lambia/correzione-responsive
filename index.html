@@ -6,13 +6,23 @@
     <title>Responsive Layout</title>
     <link rel="stylesheet" href="./css/utilities.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body class="debug">
 
      <header class="bg-primary px-16 mb-32">
-        <div class="d-flex flex-justify-between header-wrapper">
-            <div class="bg-primary-light p-8">LOGO</div>
-            <div class="bg-primary-light p-8">NAVIGATION</div>
+        <div class="d-flex flex-justify-between flex-align-center header-wrapper">
+            <a href="#">
+                <img src="./img/logo.png" alt="Logo del sito" class="d-block">
+            </a>
+            <i class="fas fa-bars fa-2xl"></i>
+            <nav>
+                <a class="p-8" href="#">Prova</a>
+                <a class="p-8" href="#">Prova</a>
+                <a class="p-8" href="#">Prova</a>
+                <a class="p-8" href="#">Prova</a>
+                <a class="btn" href="#">Cliccami</a>
+            </nav>
         </div>
      </header>
 
@@ -20,12 +30,35 @@
         <!-- Intro section -->
         <section class="mb-32">
             <div class="container">
-                <div id="cards">
-                    <div class="card card-big bg-primary-light">1</div>
-                    <div class="card bg-primary-light">2</div>
-                    <div class="card bg-primary-light">3</div>
-                    <div class="card bg-primary-light">4</div>
-                    <div class="card bg-primary-light">5</div>
+                <div id="cards" id="prova">
+                    <div class="card card-big bg-primary-light">
+                        <div class="card-content">
+                            <h3>Clean Code</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nobis, architecto ad dolore quod, facere totam quas recusandae blanditiis.</p>
+                            <a href="#" class="btn btn-blue">App Store</a>
+                        </div>
+                        <img class="card-image" src="./img/phone.png" alt="Phone">
+                    </div>
+                    <div class="card bg-primary-light">
+                        <i class="fas fa-file-code"></i>
+                        <h3>Clean Code</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nobis, architecto ad dolore quod, facere totam quas recusandae blanditiis.</p>
+                    </div>
+                    <div class="card bg-primary-light">
+                        <i class="fas fa-file-code"></i>
+                        <h3>Clean Code</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nobis, architecto ad dolore quod, facere totam quas recusandae blanditiis.</p>
+                    </div>
+                    <div class="card bg-primary-light">
+                        <i class="fas fa-file-code"></i>
+                        <h3>Clean Code</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nobis, architecto ad dolore quod, facere totam quas recusandae blanditiis.</p>
+                    </div>
+                    <div class="card bg-primary-light">
+                        <i class="fas fa-file-code"></i>
+                        <h3>Clean Code</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nobis, architecto ad dolore quod, facere totam quas recusandae blanditiis.</p>
+                    </div>
                 </div>
             </div>
         </section>
